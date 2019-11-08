@@ -172,3 +172,5 @@ fields:
         format: html-blocks
     label: Content
   label: Kontakt
+pages:
+- content/_index.md
