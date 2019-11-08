@@ -130,3 +130,26 @@ fields:
     config: {}
     label: Bilder
   label: Referenzen
+- name: kunden
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: logos
+    type: image_gallery
+    config: {}
+    label: Logos
+  label: Kunden
