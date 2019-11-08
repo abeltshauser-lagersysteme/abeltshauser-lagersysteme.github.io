@@ -78,3 +78,55 @@ fields:
       labelField: 
     label: Liste
   label: Leistungen
+- name: produkte
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: button_beschriftung
+    type: text
+    config:
+      required: false
+    label: Button Beschriftung
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
+  label: Produkte
+- name: referenzen
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: textfeld
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Textfeld
+  - name: bilder
+    type: image_gallery
+    config: {}
+    label: Bilder
+  label: Referenzen
