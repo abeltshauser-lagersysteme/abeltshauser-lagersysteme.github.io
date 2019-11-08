@@ -5,5 +5,23 @@ fields:
 - type: file
   name: logo
   label: Logo
+- name: kontaktdaten
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kontaktdaten
 pages:
 - content/global/header.md
