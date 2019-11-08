@@ -24,10 +24,10 @@ content = "<p>Im letzten Schritt liefern und montieren wir in Ihrem Betrieb die 
 icon = "/uploads/2019/11/08/icon_montage.png"
 titel = "Montage"
 [produkte]
-button_beschriftung = ""
-button_link = ""
-content = ""
-titel = ""
+button_beschriftung = "ANGEBOT anfordern"
+button_link = "mailto:info@abeltshauser-lagersysteme.de?subject=Angebot"
+content = "<h2>RAUM im RAUM</h2><p>Fragen Sie einfach bei uns für eine individuelles Angebot an - Wir stellen hohe Ansprüche an Flexibilität und Qualität</p><p>Auch komplexe Aufgabenstellungen werden wir gerecht, hier finden Sie nur einen Auszug aus unserem Portfolio, weil wir genauso flexibel und indivuell sind, wie Ihre Anforderungen.</p><ul><li><p>Hochregale</p></li><li><p>Stahlbaubühnen</p></li><li><p>Kleinteilelager</p></li><li><p>Lagerbühnen</p></li><li><p>Palettenlagerung</p></li><li><p>Systembühnen</p></li></ul>"
+titel = "Produkte"
 [raumimraum]
 bild = "/uploads/2019/11/08/1_Lagersystem.jpg"
 titel = "RAUM im RAUM"
