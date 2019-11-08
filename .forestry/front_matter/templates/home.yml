@@ -1,4 +1,80 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: raumimraum
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: RAUM im RAUM
+- name: uber_uns
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Über uns
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: liste
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Liste
+  label: Leistungen
