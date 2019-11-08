@@ -10,8 +10,19 @@ content = ""
 logos = []
 titel = ""
 [leistungen]
-liste = []
-titel = ""
+titel = "Leistungen"
+[[leistungen.liste]]
+content = "<p>Bei einem Vor-Ort-Termin übernehmen wir das Aufmaß und fertigen dann anhand Ihrer Bedürfnisse eine detaillierte Konstruktionszeichnung an.</p>"
+icon = "/uploads/2019/11/08/icon_konstruktion.png"
+titel = "Konstruktion"
+[[leistungen.liste]]
+content = "<p>Für ein perfektes und langlebiges Produkt verwenden wir nur hochwertige Industriebaustoffe. Die Fertigung Ihres Lagersystems wird in Deutschland von qualifizierten Fachkräften durchgeführt.</p>"
+icon = "/uploads/2019/11/08/icon_fertigung.png"
+titel = "Fertigung"
+[[leistungen.liste]]
+content = "<p>Im letzten Schritt liefern und montieren wir in Ihrem Betrieb die vorgefertigten Einzelteile.</p>"
+icon = "/uploads/2019/11/08/icon_montage.png"
+titel = "Montage"
 [produkte]
 button_beschriftung = ""
 button_link = ""
