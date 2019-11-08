@@ -32,9 +32,9 @@ titel = "Produkte"
 bild = "/uploads/2019/11/08/1_Lagersystem.jpg"
 titel = "RAUM im RAUM"
 [referenzen]
-bilder = []
-textfeld = ""
-titel = ""
+bilder = ["/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_1.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_2.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_3.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_4.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_5.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_6.jpg", "/uploads/2019/11/08/Referenz_Stahlbau_buehnensystem_7.jpg"]
+textfeld = "<p>Stahlbau <br>Bühnen <br>System</p>"
+titel = "Referenzen"
 [uber_uns]
 bild = "/uploads/2019/11/08/2_UeberUns_abeltshauser.jpg"
 content = "<h1><em>Abeltshauser</em><br>Lagersysteme</h1><p>Unsere Lagersysteme sind so individuell wie Ihre Anforderungen. Hochwertige und innovative Lagerlösungen aus einer Hand: von der individuellen Planung hochwertiger Lagersysteme bis zur perfekten Montage.</p><p>Ihr Lagersystem wird speziell auf Ihre Bedürfnisse und Anforderungen abgestimmt und gefertigt. Vom Hochregal bis zu mehrstöckigen Bühnensystemen planen und setzen wir bedarfsgerecht und zuverlässig Ihre Wünsche um.</p>"
