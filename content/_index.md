@@ -2,8 +2,6 @@
 seo_description = "asd"
 title = "Home"
 type = "page"
-[menu.main]
-weight = 1
 [kontakt]
 content = "<p>Kirchberg 22 - 84098 Hohenthann<br>Tel.: 0 87 84 / 9 69 59 47 | Fax.: 0 87 84 / 9 69 59 46<br><a href=\"mailto:info@abeltshauser-lagersysteme.de\" title=\"\">info@abeltshauser-lagersysteme.de</a></p>"
 logo = "/uploads/2019/11/08/raum-im-raum_logo.png"
@@ -25,6 +23,8 @@ titel = "Fertigung"
 content = "<p>Im letzten Schritt liefern und montieren wir in Ihrem Betrieb die vorgefertigten Einzelteile.</p>"
 icon = "/uploads/2019/11/08/icon_montage.png"
 titel = "Montage"
+[menu.main]
+weight = 1
 [produkte]
 button_beschriftung = "ANGEBOT anfordern"
 button_link = "mailto:info@abeltshauser-lagersysteme.de?subject=Angebot"

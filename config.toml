@@ -2,3 +2,15 @@ baseURL = "https://abeltshauser-lagersysteme.github.io"
 languageCode = "de-de"
 theme = "abeltshauser-lagersysteme"
 title = "RAUM im RAUM - Abeltshauser Lagersysteme"
+[[menu.main]]
+name = "Kontakt"
+url = "#kontakt"
+weight = 4
+[[menu.main]]
+name = "Leistungen"
+url = "#leistungen"
+weight = 3
+[[menu.main]]
+name = "Referenzen"
+url = "#referenzen"
+weight = 2

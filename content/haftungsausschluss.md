@@ -1,6 +1,6 @@
 +++
 bild_header = ""
-date = "2018-05-25T09:46:59+02:00"
+date = 2018-05-25T07:46:59Z
 seo_description = ""
 titel_header = "Haftungsausschluß"
 title = "Haftungsausschluss"
