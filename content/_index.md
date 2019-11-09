@@ -2,6 +2,8 @@
 seo_description = "asd"
 title = "Home"
 type = "page"
+[menu.main]
+weight = 1
 [kontakt]
 content = "<p>Kirchberg 22 - 84098 Hohenthann<br>Tel.: 0 87 84 / 9 69 59 47 | Fax.: 0 87 84 / 9 69 59 46<br><a href=\"mailto:info@abeltshauser-lagersysteme.de\" title=\"\">info@abeltshauser-lagersysteme.de</a></p>"
 logo = "/uploads/2019/11/08/raum-im-raum_logo.png"
