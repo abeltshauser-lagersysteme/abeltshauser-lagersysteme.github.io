@@ -29,6 +29,7 @@ weight = 1
 button_beschriftung = "ANGEBOT anfordern"
 button_link = "mailto:info@abeltshauser-lagersysteme.de?subject=Angebot"
 content = "<h2>RAUM im RAUM</h2><p>Fragen Sie einfach bei uns für eine individuelles Angebot an - Wir stellen hohe Ansprüche an Flexibilität und Qualität</p><p>Auch komplexe Aufgabenstellungen werden wir gerecht, hier finden Sie nur einen Auszug aus unserem Portfolio, weil wir genauso flexibel und indivuell sind, wie Ihre Anforderungen.</p><ul><li><p>Hochregale</p></li><li><p>Stahlbaubühnen</p></li><li><p>Kleinteilelager</p></li><li><p>Lagerbühnen</p></li><li><p>Palettenlagerung</p></li><li><p>Systembühnen</p></li></ul>"
+hintergrund = "/uploads/2019/11/08/background_picture_halle_zeichnung.png"
 titel = "Produkte"
 [raumimraum]
 bild = "/uploads/2019/11/08/1_Lagersystem.jpg"
