@@ -17,7 +17,7 @@ jobs:
                     git clone -b master git@github.com:abeltshauser-lagersysteme/abeltshauser-lagersysteme.github.io.git public
             - run:
                 name: Generate site
-                working_directory: ~/ofen-warm.github.io
+                working_directory: ~/abeltshauser-lagersysteme.github.io
                 command: HUGO_ENV=production hugo -d ~/public
             - run:
                 name: Delete All SSH keys and Add the installed one
