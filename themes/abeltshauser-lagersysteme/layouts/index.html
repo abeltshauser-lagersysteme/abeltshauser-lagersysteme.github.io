@@ -1,27 +1,211 @@
 {{ define "main" }}
 {{$p:=.}}
 <div id="home">
-  {{with .Params.ueber_uns}}
-  <div class="headimg"
-    style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+  {{with .Params.raumimraum}}
+  <div class="secWithTitle rir blue left">
+    <div class="title">
+      <div class="tw">
+        <h3>{{.titel}}</h3>
+      </div>
+    </div>
+    <div class="content"
+      style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+      <div class="d1"></div>
+      <div class="d2"></div>
+    </div>
   </div>
-  <section id="sec-{{.interner_linkname}}">
-    <div class="spm" id="{{.interner_linkname}}"></div>
-    <div class="ui container">
-      {{partial "titleSubtitle" (dict "top" true "title" .titel "subtitle" .untertitel)}}
-      <div class="ccontent">
-        {{.content|safeHTML}}
+  {{end}}
+  {{with .Params.uber_uns}}
+  <section id="sec-uber_uns">
+    <div class="secWithTitle right">
+      <div class="content">
+        <div class="cw">
+          <div class="txt">
+            {{.content|safeHTML}}
+          </div>
+          <div class="img"
+            style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+
+          </div>
+        </div>
+        <div class="d1"><h3>{{.titel}}</h3></div>
+        <div class="d2"></div>
+      </div>
+      <div class="title">
+        <div class="tw">
+          <h3>{{.titel}}</h3>
+        </div>
       </div>
     </div>
   </section>
   {{end}}
-  {{with .Params.kontakt}}
-  <section id="sec-{{.interner_linkname}}">
-      <div class="spm" id="{{.interner_linkname}}"></div>
-    <div class="ui container">
-      {{.content|safeHTML}}
+  {{with .Params.leistungen}}
+  <section id="sec-leistungen">
+      <div class="spm" id="leistungen"></div>
+    <div class="secWithTitle blue left">
+      <div class="title">
+        <div class="tw">
+          <h3>{{.titel}}</h3>
+        </div>
+      </div>
+      <div class="content">
+        <div class="ui three column stackable grid">
+          {{range .liste}}
+          <div class="column">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
+            <h3>{{.titel}}</h3>
+            <div>{{.content|safeHTML}}</div>
+          </div>
+          {{end}}
+        </div>
+        <div class="d1"></div>
+        <div class="d2"></div>
+      </div>
     </div>
   </section>
   {{end}}
+  {{with .Params.produkte}}
+  <section id="sec-produkte">
+    <div class="secWithTitle right lightgrey">
+      <div class="content"
+        style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+        <div class="cw">
+          <div class="txt">
+            {{.content|safeHTML}}
+          </div>
+        </div>
+        <div class="d1"><h3>{{.titel}}</h3></div>
+        <div class="d2"></div>
+      </div>
+      <div class="title">
+        <div class="tw">
+          <h3>{{.titel}}</h3>
+        </div>
+      </div>
+      <a class="pbutton" href="{{.button_link}}" target="_blank">{{.button_beschriftung}}</a>
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.referenzen}}
+  <section id="sec-referenzen">
+      <div class="spm" id="referenzen"></div>
+    <div class="secWithTitle blue left">
+      <div class="title">
+        <div class="tw">
+          <h3>{{.titel}}</h3>
+        </div>
+      </div>
+      <div class="content">
+        <div class="ui three column doubling grid imggal">
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if eq $x 0}}
+            <div data-modal="imgg" class="bimg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div> {{end}}{{end}}
+          </div>
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if gt $x 0}}
+            {{if lt $x 3}}
+            <div data-modal="imgg" class="simg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div>
+            {{end}}{{end}}{{end}}
+          </div>
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if eq $x 3}}
+            <div data-modal="imgg" class="bimg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div> {{end}}{{end}}
+          </div>
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if eq $x 4}}
+            <div data-modal="imgg" class="bimg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div> {{end}}{{end}}
+          </div>
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if eq $x 5}}
+            <div data-modal="imgg" class="bimg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div> {{end}}{{end}}
+          </div>
+          <div class="column imggalcol">
+            {{ range $x,$img := .bilder }} {{if eq $x 6}}
+            <div data-modal="imgg" class="simg gimg" data-idx="{{$x}}"
+              data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+              style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+            </div> {{end}}{{end}}
+            <div class="simg tbox">
+              {{.textfeld|safeHTML}}
+            </div>
+          </div>
+        </div>
+        <div class="d1"></div>
+        <div class="d2"></div>
+      </div>
+    </div>
+  </section>
+
+  {{end}}
+  {{with .Params.kunden}}
+  <section id="sec-kunden">
+      <div class="spm" id="kunden"></div>
+    <div class="secWithTitle right lightgrey">
+      <div class="content">
+        <div class="cw">
+          <div class="ui two column stackable grid">
+            <div class="column">
+              <div class="txt">
+                {{.content|safeHTML}}
+              </div>
+            </div>
+            <div class="column logos">
+              {{range .logos}}
+              <img src="{{partial "imgUrl" (dict "img" . "params" "c_scale,h_500,f_auto" )}} " />
+              {{end}}
+            </div>
+          </div>
+
+        </div>
+        <div class="d1"><h3>{{.titel}}</h3></div>
+        <div class="d2"></div>
+      </div>
+      <div class="title">
+        <div class="tw">
+          <h3>{{.titel}}</h3>
+        </div>
+      </div>
+      <a class="pbutton" href="{{.button_link}}" target="_blank">{{.button_beschriftung}}</a>
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.kontakt}}
+  <section id="sec-kontakt">
+    <div class="spm" id="kontakt"></div>
+    <div class="ui container">
+      <div class="ct">
+        <img src="{{partial "imgUrl" (dict "img" .logo "params" "c_scale,h_500,f_auto" )}} " />
+        {{.content|safeHTML}}
+      </div>
+
+    </div>
+  </section>
+  {{end}}
+</div>
+<div class="ui modal small" id="modal_imgg">
+  <div class="content">
+    <ul id="gal_imgg" class="imggalslider sy-slides-crop">
+      {{ range $x,$img := .Params.referenzen.bilder }}
+      <li>
+        <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_500,f_auto" )}} " />
+      </li>
+      {{end}}
+    </ul>
+  </div>
 </div>
 {{ end }}

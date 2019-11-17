@@ -1,16 +1,17 @@
 {{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
 <header>
   <div class="ui container kdata">
-    <div class="adrtel">
-      {{range $t.Params.kontaktdaten}}
-      <div>
-        <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
-        <div>{{.text|safeHTML}}</div>
-      </div>
-      {{end}}
-    </div>
+    
   </div>
-  <div class="ui container ">
+  <div class="ui containerx ">
+      <div class="adrtel">
+          {{range $t.Params.kontaktdaten}}
+          <div>
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
+            <div>{{.text|safeHTML}}</div>
+          </div>
+          {{end}}
+        </div>
     <div id="headermenuw">
       <div class="logow">
         <a href="/" id="logolink">

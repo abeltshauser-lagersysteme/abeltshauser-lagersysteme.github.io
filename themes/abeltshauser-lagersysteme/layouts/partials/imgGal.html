@@ -1,14 +1,51 @@
-<div class="ui container grid imggal stackable">
-  <div class="eight wide column">
+<div class="ui three column stackable grid imggal">
+  <div class="column imggalcol">
     {{ range $x,$img := . }} {{if eq $x 0}}
-    <img data-modal="imgg" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
-    /> {{end}}{{end}}
+    <div data-modal="imgg" 
+    class="bimg" data-idx="{{$x}}" 
+    data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+    style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div> {{end}}{{end}}
   </div>
-  <div class="eight wide column imggalcol">
+  <div class="column imggalcol">
     {{ range $x,$img := . }} {{if gt $x 0}}
-    <img data-modal="imgg" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
-    /> {{end}}{{end}}
+    {{if lt $x 3}}
+    <div data-modal="imgg" 
+    class="simg" data-idx="{{$x}}" 
+    data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+    style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div>
+    {{end}}{{end}}{{end}}
   </div>
+  <div class="column imggalcol">
+      {{ range $x,$img := . }} {{if eq $x 3}}
+      <div data-modal="imgg" 
+      class="bimg" data-idx="{{$x}}" 
+      data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+      style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div> {{end}}{{end}}
+    </div>
+    <div class="column imggalcol">
+        {{ range $x,$img := . }} {{if eq $x 4}}
+        <div data-modal="imgg" 
+        class="bimg" data-idx="{{$x}}" 
+        data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+        style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div> {{end}}{{end}}
+      </div>
+      <div class="column imggalcol">
+          {{ range $x,$img := . }} {{if eq $x 5}}
+          <div data-modal="imgg" 
+          class="bimg" data-idx="{{$x}}" 
+          data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+          style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div> {{end}}{{end}}
+        </div>
+        <div class="column imggalcol">
+            {{ range $x,$img := . }} {{if eq $x 6}}
+            <div data-modal="imgg" 
+            class="simg" data-idx="{{$x}}" 
+            data-src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+            style="background:url({{partial "imgUrl" (dict "img" $img "params" "q_100" )}}) center center no-repeat; background-size:cover;"></div> {{end}}{{end}}
+          <div class="simg tbox">
+            {{.text}}
+          </div>
+          </div>
 </div>
 <div class="ui modal small" id="modal_imgg">
   <div class="content">
