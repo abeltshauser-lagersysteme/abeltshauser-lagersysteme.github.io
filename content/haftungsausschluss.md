@@ -9,7 +9,7 @@ type = "page"
 weight = 4
 
 +++
-### HAFTUNG FÜR INHALTE
+### HAFTUNG FÜR INHALTExx
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalterstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
 
