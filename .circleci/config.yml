@@ -2,6 +2,9 @@ version: 2.0
 
 jobs:
     build:
+        branches:
+            only:
+                - source
         docker:
             - image: cibuilds/hugo:latest
         working_directory: ~/abeltshauser-lagersysteme.github.io
