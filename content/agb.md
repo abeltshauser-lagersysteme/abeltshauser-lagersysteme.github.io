@@ -5,7 +5,5 @@ seo_description = "asds"
 titel_header = "AGB"
 title = "AGB"
 type = "page"
-[menu.footer]
-weight = 2
 
 +++

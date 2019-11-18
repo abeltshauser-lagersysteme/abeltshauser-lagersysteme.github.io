@@ -6,7 +6,7 @@ titel_header = "Haftungsausschluß"
 title = "Haftungsausschluss"
 type = "page"
 [menu.footer]
-weight = 4
+weight = 3
 
 +++
 ### HAFTUNG FÜR INHALTExx
