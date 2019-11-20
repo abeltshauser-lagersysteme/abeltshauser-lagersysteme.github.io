@@ -7,7 +7,7 @@ content = "<p>Kirchberg 22 - 84098 Hohenthann<br>Tel.: 0 87 84 / 9 69 59 47 | Fa
 logo = "/uploads/2019/11/08/raum-im-raum_logo.png"
 [kunden]
 content = "<p><strong>Zufriedene Kunden sind der Grundstein unseres Erfolgs.</strong></p><p>Werden auch Sie unser Kunde! Wir freuen uns auf Ihre Anfrage, gerne erstellen wir Ihnen ein unverbindliches Angebot.</p>"
-logos = ["/uploads/2019/11/08/logo_lorenz_snackworld.png"]
+logos = ["/uploads/2019/11/20/logo_transregina.jpg", "/uploads/2019/11/08/logo_lorenz_snackworld.png"]
 titel = "Kunden"
 [leistungen]
 titel = "Leistungen"
