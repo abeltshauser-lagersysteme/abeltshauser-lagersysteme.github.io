@@ -155,8 +155,7 @@ UST-ID-Nr. DE215267832</p>
 </footer>
 
   <script type="text/javascript" src="https://abeltshauser-lagersysteme.github.io/lib/semantic.min.js"></script>
-  <script type="text/javascript" src="https://abeltshauser-lagersysteme.github.io/lib/slippry.min.js"></script>
-  <link rel="stylesheet" href="https://abeltshauser-lagersysteme.github.io/lib/slippry.min.css">
+  
   <script type="text/javascript">
     $(function () {
       const scrElems = ["header",'#home'];
@@ -178,53 +177,8 @@ UST-ID-Nr. DE215267832</p>
           }
         }
       });
-      $('#slider').slippry({
-        
-        slippryWrapper: '<div class="sy-box topslider" />', 
-        elements: 'li', 
+      
 
-        
-        adaptiveHeight: false, 
-        captions: false,
-        loop: true,
-        
-        pager: false,
-        start: 1,
-        
-        slideMargin: 0, 
-        useCSS: true,
-        transition: 'fade',
-        pause: 6000,
-        speed: 650,
-        
-        autoDirection: 'next'
-      });
-      $('.imggal .gimg').click(function (el) {
-        var mid = el.currentTarget.dataset.modal;
-        var idx = el.currentTarget.dataset.idx;
-        $('#modal_' + mid).modal({ inverted: true }).modal('show');
-        $('#gal_' + mid).slippry({
-          
-          slippryWrapper: '<div class="sy-box portfolio-slider" />', 
-  
-          
-          adaptiveHeight: true, 
-          
-          loop: true, 
-          captionsSrc: 'li',
-          captions: 'custom', 
-          captionsEl: '.external-captions',
-  
-          
-          transition: 'horizontal', 
-          easing: 'linear', 
-          continuous: true,
-  
-          
-          auto: true,
-          pager: false,
-        });
-      });
       $('.ui.embed').embed();
       $('.headermenuitem a').click(function(){
         $('.headermenuitem').removeClass('active');
