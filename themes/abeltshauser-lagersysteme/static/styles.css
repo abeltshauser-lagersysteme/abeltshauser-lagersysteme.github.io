@@ -63,6 +63,7 @@ header .logo {
   }
   header.scrolled .adrtel {
     flex-direction: row;
+    z-index: 999;
   }
 }
 @media (min-width: 768px) and (max-width: 768px) {
@@ -87,6 +88,7 @@ header .adrtel {
   align-items: flex-start;
   flex: 0 1 auto;
   font-size: 0.9rem;
+  z-index: 999;
   right: 10%;
   top: 2rem;
 }
