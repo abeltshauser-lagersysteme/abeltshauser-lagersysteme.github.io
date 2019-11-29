@@ -2,75 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on RAUM im RAUM - Abeltshauser Lagersysteme</title>
-    <link>https://abeltshauser-lagersysteme.github.io/</link>
+    <link>https://abeltshauser-lagersysteme.de/</link>
     <description>Recent content in Home on RAUM im RAUM - Abeltshauser Lagersysteme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Fri, 25 May 2018 16:23:18 +0200</lastBuildDate>
     
-	<atom:link href="https://abeltshauser-lagersysteme.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://abeltshauser-lagersysteme.de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Footer</title>
-      <link>https://abeltshauser-lagersysteme.github.io/global/footer/</link>
+      <link>https://abeltshauser-lagersysteme.de/global/footer/</link>
       <pubDate>Fri, 25 May 2018 16:23:18 +0200</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/global/footer/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/global/footer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AGB</title>
-      <link>https://abeltshauser-lagersysteme.github.io/agb/</link>
+      <link>https://abeltshauser-lagersysteme.de/agb/</link>
       <pubDate>Fri, 25 May 2018 07:47:15 +0000</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/agb/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/agb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datenschutz</title>
-      <link>https://abeltshauser-lagersysteme.github.io/datenschutz/</link>
+      <link>https://abeltshauser-lagersysteme.de/datenschutz/</link>
       <pubDate>Fri, 25 May 2018 07:47:15 +0000</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/datenschutz/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/datenschutz/</guid>
       <description>Datenschutzerklärung Datenschutzerklärung Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen Stellenwert für die Geschäftsleitung der Siegfried Abeltshauser. Eine Nutzung der Internetseiten der Siegfried Abeltshauser ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der betroffenen Person ein.</description>
     </item>
     
     <item>
       <title>Haftungsausschluss</title>
-      <link>https://abeltshauser-lagersysteme.github.io/haftungsausschluss/</link>
+      <link>https://abeltshauser-lagersysteme.de/haftungsausschluss/</link>
       <pubDate>Fri, 25 May 2018 07:46:59 +0000</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/haftungsausschluss/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/haftungsausschluss/</guid>
       <description>HAFTUNG FÜR INHALTE Die Inhalte unserer Seiten wurden mit größter Sorgfalterstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</description>
     </item>
     
     <item>
       <title>Header</title>
-      <link>https://abeltshauser-lagersysteme.github.io/global/header/</link>
+      <link>https://abeltshauser-lagersysteme.de/global/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/global/header/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/global/header/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>https://abeltshauser-lagersysteme.github.io/impressum/</link>
+      <link>https://abeltshauser-lagersysteme.de/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abeltshauser-lagersysteme.github.io/impressum/</guid>
+      <guid>https://abeltshauser-lagersysteme.de/impressum/</guid>
       <description>Siegfried Abeltshauser
 Raum-im-Raum
 Kirchberg 22
 84098 Hohenthann
 Tel.: 0 87 84 – 3 55
 Fax.: 0 87 84 – 94 24 88
-info@abeltshauser-lagersysteme.de
-www.abeltshauser-lagersysteme.de
+info@abeltshauser-lagersysteme.de www.abeltshauser-lagersysteme.de
 Amtsgericht Landshut
 SteuerNr. 132/191/00102
 UST-ID-Nr. DE215267832
